@@ -2,6 +2,10 @@
 run Dr-Referrl-Tracker in Docker at http://drdev.heterockedastic.com
 
 ### Using Digitalocean Docker one click install
+[Docker Tutorial for digital ocean](https://www.digitalocean.com/community/tutorials/the-docker-ecosystem-an-introduction-to-common-components)
+
+[Docker digital ocean help](https://www.digitalocean.com/community/tags/docker?utm_source=Customerio&utm_medium=Email_Internal&utm_campaign=Email_DockerWelcome)
+
 ##### Tested install with 
 ```bash
 :~# docker run ubuntu /bin/echo 'Hello world'
