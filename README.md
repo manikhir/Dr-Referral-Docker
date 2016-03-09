@@ -1,7 +1,5 @@
 # Dr-Referral-Docker
-run Dr-Referrl-Tracker in Docker.
-
-### drdev.heterockedastic.com is pointed at server.
+run Dr-Referrl-Tracker in Docker at http://drdev.heterockedastic.com
 
 ### Using Digitalocean Docker one click install
 ##### Tested install with 
