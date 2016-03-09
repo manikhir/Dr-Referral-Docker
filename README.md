@@ -1,6 +1,8 @@
 # Dr-Referral-Docker
 run Dr-Referrl-Tracker in Docker.
 
+### drdev.heterockedastic.com is pointed at server.
+
 ### Using Digitalocean Docker one click install
 ##### Tested install with 
 ```bash
@@ -17,4 +19,17 @@ Status: Downloaded newer image for ubuntu:latest
 Hello world
 :~#
 ```
+
+### Docker containers (django, nginx, gunicorn, postgress)
+???
+
+### How to deploy?
+???
+
+### How to update?
+???
+
+### How to test with travis-ci
+https://docs.travis-ci.com/user/docker/
+
 
