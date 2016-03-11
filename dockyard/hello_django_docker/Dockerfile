@@ -18,14 +18,12 @@ ENV DOCKYARD_SRVHOME=/srv
 ENV DOCKYARD_SRVPROJ=/srv/hello_django
 
 # Update the default application repository sources list
-RUN apt-get -y update
-RUN apt-get -y upgrade
-RUN apt-get install -y curl
-RUN apt-get install -y vim
+RUN apt-get update && apt-get -y upgrade
+RUN apt-get install -y tar git curl nano wget dialog net-tools
+RUN apt-get install -y python python-distribute
+RUN apt-get install -qy python-setuptools
+RUN easy_install pip
 
-RUN apt-get install -y python-setuptools
-
-RUN apt-get install -y python-pip
 
 # Create application subdirectories
 WORKDIR $DOCKYARD_SRVHOME
